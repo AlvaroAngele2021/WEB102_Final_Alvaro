@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:black;
+  background-image: url(https://papers.co/wallpaper/papers.co-md65-star-dark-space-galaxy-23-wallpaper.jpg);
+  background-size: center;
+}
