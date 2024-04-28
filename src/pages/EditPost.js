@@ -10,6 +10,8 @@ const EditPost = ({data}) => {
     const [post, setPost] = useState({id: null, title: "", author: "", description: ""});
 
     const updatePost = async (event) => {
+        event.preventDefault();
+
         await supabase
         .from('Posts')
         .update({ title: post.title, author: post.author,  description: post.description})
