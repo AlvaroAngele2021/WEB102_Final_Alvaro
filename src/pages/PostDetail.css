@@ -1,0 +1,12 @@
+.commentBox{
+    position:absolute;
+    margin-top: 1000px;
+    margin-right: px;
+}
+.infoPanel{
+    background-color: rgb(134, 134, 134);
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:black
+}

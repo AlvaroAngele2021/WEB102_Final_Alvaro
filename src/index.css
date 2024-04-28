@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:black;
-  background-image: url(https://papers.co/wallpaper/papers.co-md65-star-dark-space-galaxy-23-wallpaper.jpg);
-  background-size: center;
+  background-image: url("./cookie-depth.png");
+  background-size: 50px 50px;
 }
