@@ -14,7 +14,7 @@ const EditPost = ({data}) => {
         .from('Posts')
         .update({ title: post.title, author: post.author,  description: post.description})
         .eq('id', id);
-        window.location = "/https://alvarowebfinal.netlify.app";
+        //window.location = "/https://alvarowebfinal.netlify.app";
     }
 
     const deletePost = async (event) => {
@@ -24,7 +24,7 @@ const EditPost = ({data}) => {
         .from('Posts')
         .delete()
         .eq('id', id); 
-        window.location = "/https://alvarowebfinal.netlify.app";
+        //window.location = "/https://alvarowebfinal.netlify.app";
     }
 
     const handleChange = (event) => {
